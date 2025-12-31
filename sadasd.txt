@@ -1,1 +1,98 @@
-sadasd
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Web;
+using System.Web.UI;
+using System.Web.UI.WebControls;
+
+namespace lebex1
+{
+    public partial class WebForm1 : System.Web.UI.Page
+    {
+        protected void Page_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        protected void Button1_Click(object sender, EventArgs e)
+        {
+            lbl1.Text = txt1.Text;
+        }
+
+        protected void Button2_Click(object sender, EventArgs e)
+        {
+            lbl2.Text = txt2.Text;
+        }
+
+        protected void Button2_Click1(object sender, EventArgs e)
+        {
+            int n1 = Convert.ToInt32(txtv1.Text);
+            int n2 = Convert.ToInt32(txtv2.Text);
+
+            int sum = (n1 + n2);
+
+            v2.Text = sum.ToString();
+        }
+
+        protected void Button3_Click(object sender, EventArgs e)
+        {
+            int p = Convert.ToInt32(txtoddeven.Text);
+            if (p % 2 == 0)
+            {
+                lbloddeven.Text = p.ToString("this number is Even = " + p);
+            }
+            else
+            {
+                lbloddeven.Text = p.ToString("this number is Odd = " + p);
+            }
+        }
+
+        protected void Button4_Click(object sender, EventArgs e)
+        {
+            int f = Convert.ToInt32(txtNorP.Text);
+
+            if (f > 0)
+            {
+                lblNorP.Text = f.ToString("this number is Positive = " + f);
+            }
+            else if (f < 0)
+            {
+                lblNorP.Text = f.ToString("this number is Negeitve = " + f);
+
+            }
+            else
+            {
+                lblNorP.Text = f.ToString("this number is Zero = " + f);
+            }
+        }
+
+        protected void Button5_Click(object sender, EventArgs e)
+        {
+            int s = Convert.ToInt32(txt18.Text);
+            if (s >= 18)
+            {
+                lbl18.Text = s.ToString("eligible to Vote = " + s);
+            }
+            else
+            {
+                lbl18.Text = s.ToString("Not eligible Vote = " + s);
+            }
+        }
+
+        protected void Button6_Click(object sender, EventArgs e)
+        {
+            int w = Convert.ToInt32(txtvalue1.Text);
+            int z = Convert.ToInt32(txtvalue2.Text);
+            int temp = 0;
+
+            temp = w;
+            w = z;
+            z = temp;
+
+            lblvalue1.Text = w.ToString();
+            lblvalue2.Text = z.ToString();
+
+
+        }
+    }
+}
