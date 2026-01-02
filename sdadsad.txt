@@ -13,7 +13,7 @@ namespace lebex1
         {
 
         }
-
+sdsdsdsds
         protected void Button1_Click(object sender, EventArgs e)
         {
             lbl1.Text = txt1.Text;
