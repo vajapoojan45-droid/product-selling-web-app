@@ -18,7 +18,7 @@ namespace lebex1
         {
             lbl1.Text = txt1.Text;
         }
-
+juhbhvbvuvguvg
         protected void Button2_Click(object sender, EventArgs e)
         {
             lbl2.Text = txt2.Text;
