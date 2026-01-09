@@ -5,7 +5,7 @@ using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
 
-namespace lebex1
+namespace lebex1dddd
 {
     public partial class WebForm1 : System.Web.UI.Page
     {dwdwdwdwdwdwsd
