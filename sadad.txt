@@ -7,10 +7,10 @@ using System.Web.UI.WebControls;
 
 namespace lebex1dwdwdwd
 {
-    public partial class WebForm1 : System.Web.UI.Pagedsdsdsdsd
+    public partial class WebForm1 : System.Web.UI.Pdedwqwdqwdqwedqwdqwdqwdqwdagedsdsdsdsd
     {xcxcx
         protected void Page_Load(object sender, EventArgs e)
-        {
+        {dede
 
         }
 
