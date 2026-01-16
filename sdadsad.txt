@@ -19,7 +19,7 @@ sdsdsdsds
             lbl1.Text = txt1.Text;
         }
 
-        protected void Button2_Click(object sender, EventArgs e)
+        protected void Button2_Click(object sender, EventArgs e)sssssssssssssssssssssssssssssssssssssss
         {
             lbl2.Text = txt2.Text;
         }
