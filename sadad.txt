@@ -15,7 +15,7 @@ namespace lebex1dwdwdwd
         }
 
         protected void Button1_Click(object sender, EventArgs e)
-        {
+        {zazzzzzzzzzzzzzzzzzzz
             lbl1.Text = txt1.Text;
         }
 
